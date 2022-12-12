@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0a0536;
+}
+
+.assegure {
+  width: 100%;
+  height: 100vh;
+  background-color: #0a0536;
+}
+
+.carrosel_front_games_body {
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translatex(-50%);
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.carrosel_front_games_body ul li {
+  display: flex;
+  list-style: none;
+  margin: 0px 4px;
+}
+
+.carrosel_front_games_body img {
+  width: 500px;
+  position: relative;
+  animation: weir 14s infinite;
+  border-radius: 12px;
+}
+
+.btns_iteragion_navbar img {
+  width: 50px;
+}
+
+.btns_iteragion_navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+@keyframes weir {
+  0% {
+    left: 0;
+  }
+  10% {
+    left: 0;
+  }
+  20% {
+    left: -504px;
+  }
+  30% {
+    left: -504px;
+  }
+  40% {
+    left: -1004px;
+  }
+  50% {
+    left: -1004px;
+  }
+  60% {
+    left: -1504px;
+  }
+  70% {
+    left: -1504px;
+  }
+  80% {
+    left: -2004px;
+  }
+  90% {
+    left: -2004px;
+  }
+}
+
+.mesange_of_cloud_convinte p {
+  color: white;
+  font-size: 48px;
+  font-family: Alfa Slab One, cursiva;
+}
+
+.mesange_of_cloud_convinte {
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.consoles img {
+  width: 300px;
+  animation: wair 6s ease-in-out infinite;
+  position: relative;
+  transform: translatey(0);
+}
+
+.consoles {
+  position: relative;
+  top: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@keyframes wair {
+  0% {
+    transform: translatey(0);
+  }
+  50% {
+    transform: translatey(-50px);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+
+.consoles li {
+  color: white;
+  list-style: none;
+  font-size: 48px;
+  font-family: Alfa Slab One, cursiva;
+}
+
+.none1 {
+  font-size: 23px;
+  font-family: Sans-Serif;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.carrossel_interativo {
+  position: relative;
+  top: 100%;
+  overflow: auto;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.carrossel_interativo ul {
+  display: flex;
+}
+
+.carrossel_interativo li {
+  margin: 0px 12px;
+  list-style: none;
+}
+
+.carrossel_interativo img {
+  border-radius: 13px;
+}
+
+.body_kratos {
+  position: relative;
+  top: 130%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  color: white;
+  font-size: 26px;
+  font-family: Alfa Slab One;
+}
+
+.kratos {
+  width: 1200px;
+  position: relative;
+  left: -34px;
+}
+
+.logo {
+  position: absolute;
+  left: 40px;
+  top: 140px;
+  width: 330px;
+  animation: wair 6s ease-in-out infinite;
+}
+
+.menuna {
+  width: 1400px;
+  height: 100vh;
+  background-color: #24001c;
+  position: fixed;
+  left: 20%;
+  top: 0;
+  border-radius: 12px;
+  display: none;
+}
+
+.menuna img {
+  width: 400px;
+  position: relative;
+  top: 530px;
+  left: 0px;
+}
+
+.img1 .img2 {
+  z-index: 45;
+  margin: 0px 200px;
+}
+
+.img9 img {
+  width: 55px;
+  position: relative;
+  left: 358px;
+  top: -500px;
+}
+
+.img9 p {
+  color: white;
+  font-family: Alfa Slab One;
+}
+
+.img9 ul {
+  position: relative;
+  top: -400px;
+}
+
+.img9 li {
+  font-size: 33px;
+  list-style: none;
+}
